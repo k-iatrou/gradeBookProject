@@ -17,3 +17,9 @@ print(gradebook)
 gradebook.append(["computer science", 100])
 gradebook.append(["visual arts", 93])
 
+# updating the visual arts points from 93 to 98
+gradebook[5][1] = 98
+
+# changing from point to pass/fail system for visual arts class
+gradebook[5].remove(98)
+gradebook[5].append("Pass")
