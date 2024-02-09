@@ -23,3 +23,9 @@ gradebook[5][1] = 98
 # changing from point to pass/fail system for visual arts class
 gradebook[5].remove(98)
 gradebook[5].append("Pass")
+
+# full gradebook
+full_gradebook = last_semester_gradebook + gradebook
+
+# full gradebook printed to console
+print(full_gradebook)
