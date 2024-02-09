@@ -12,3 +12,8 @@ gradebook = [
 ]
 
 print(gradebook)
+
+# adding computer class and visual arts grade to gradebook
+gradebook.append(["computer science", 100])
+gradebook.append(["visual arts", 93])
+
